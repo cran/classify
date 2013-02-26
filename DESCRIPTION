@@ -1,8 +1,8 @@
 Package: classify
 Type: Package
 Title: Classification Accuracy and Consistency under IRT models.
-Version: 1.0
-Date: 2012-04-30
+Version: 1.1
+Date: 2013-02-26
 Author: Dr Chris Wheadon and Dr Ian Stockford
 Maintainer: Dr Chris Wheadon <chris.wheadon@gmail.com>
 Description: IRT classification uses the probability that candidates of
@@ -24,6 +24,9 @@ License: GPL (>= 2)
 Depends: Rcpp (>= 0.9.10), plyr, ggplot2, R2WinBUGS, lattice, reshape2,
         methods, R2jags
 LinkingTo: Rcpp
-Packaged: 2012-08-22 16:52:09 UTC; ubuntu
+Packaged: 2013-02-26 16:50:30 UTC; ubuntu
 Repository: CRAN
-Date/Publication: 2012-08-22 21:35:17
+Date/Publication: 2013-02-27 08:40:14
+Collate: 'bugs.R' 'classify.R' 'gpcm.rc.R' 'prob_functions.R'
+        'scores.R' 'w_lord.R'
+NeedsCompilation: yes
